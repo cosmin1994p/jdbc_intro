@@ -35,7 +35,6 @@ public class JdbcDemo {
                 System.out.println("\n=== ALL STUDENTS AFTER DELETE ===");
                 printAllStudents(connection);
 
-                // 🔴 Keep app alive so students can open console
                 System.out.println("\nOpen the H2 console in your browser!");
                 System.out.println("JDBC URL: " + URL);
                 System.out.println("User: sa (no password)");
